@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="us-en">
+
+<head>
+    <title>Trivia Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+
+</div>
+
+<body>
+
+
+    <div id="intro">
+        <h1>Trivia Game</h1>
+        <p>Hello, and welcome to this little trivia game! Here, we'll ask you a few questions to test your star knowledge. Be sure to keep an eye on the time; you have fourty seconds to answer all the questions.</p>
+        <p>Click start below to begin!</p>
+        <button id="start">Start</button>
+    </div>
+
+    <div id="displaywatch"></div>
+    <div id="hide">
+        <p>What type of star are most stars?</p>
+        <input type="radio" name="button" class="button correct"></button> Red Dwarf
+        <input type="radio" name="button" class="incorrect"></button> Yellow Dwarf
+        <input type="radio" name="button" class="incorrect"></button> Brown Dwarf
+        <p>
+            <p>The International Astronomical Union recognizes how many constellations?</p>
+            <input type="radio" name="button2" class="button correct"></button> 88
+            <input type="radio" name="button2" class="incorrect"></button> 102
+            <input type="radio" name="button2" class="incorrect"></button> 60</p>
+        <p>What are young stars called?</p>
+        <input type="radio" name="button3" class="button incorrect"></button> Interstellar Dust
+        <input type="radio" name="button3" class="correct"></button> Protostars
+        <input type="radio" name="button3" class="incorrect"></button> Main Sequence Star
+        <p>Stars form in clouds called?</p>
+        <input type="radio" name="button4" class="button incorrect"></button> Global Clusters
+        <input type="radio" name="button4" class="incorrect"></button> Star Clouds
+        <input type="radio" name="button4" class="correct"></button> Nebulae
+        <p>The closest stars to our sun?</p>
+        <input type="radio" name="button5" class="button correct"></button> Alpha Centauri System
+        <input type="radio" name="button5" class="incorrect"></button> Alpha Ursae Minoris
+        <input type="radio" name="button5" class="incorrect"></button> Gliese 667
+
+
+    </div>
+
+    <div id="scorediv">
+        <p id="finished">You've Finished! You're Score Is:</p>
+
+        Correct:
+        <p id="correct"></p>
+        Incorrect:
+        <p id="incorrect"></p>
+        Blank:
+        <p id="blank"></p>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>

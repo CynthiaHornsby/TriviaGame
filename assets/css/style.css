@@ -1,0 +1,63 @@
+    body {
+        background: url("../../assets/images/stardust.png");
+    }
+
+    #start {
+        color: white;
+        background-color: black;
+        border-style: 1px solid black;
+        height: 40px;
+        width: 60px;
+    }
+
+    #displaywatch {
+        font-size: 24px;
+        margin-bottom: 10px;
+        position: relative;
+        left: 660px;
+        z-index: 1;
+    }
+
+
+    #intro {
+        text-align: center;
+        background-color: white;
+        border: 1px solid black;
+        padding: 20px;
+        position: relative;
+        bottom: 20px;
+        left: 25%;
+        width: 700px;
+        height: 400px;
+    }
+
+    #hide {
+        text-align: center;
+        background-color: white;
+        border: 1px solid black;
+        position: relative;
+        bottom: 60px;
+        padding-top: 40px;
+        left: 25%;
+        width: 700px;
+        height: 400px;
+        z-index: 0;
+    }
+
+    #scorediv {
+        text-align: center;
+        background-color: white;
+        border: 1px solid black;
+        position: relative;
+        bottom: 40px;
+        padding-top: 40px;
+        left: 25%;
+        width: 700px;
+        height: 400px;
+        z-index: 0;
+    }
+
+    #finished {
+        font-size: 24px;
+    }
+    
